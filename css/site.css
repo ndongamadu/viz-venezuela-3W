@@ -1,0 +1,63 @@
+
+body, h1, h2, h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.d3-tip {
+    padding:5px;
+    background-color:white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-size:1em;
+}
+
+
+.viz-container {
+    display: none;
+}
+
+#map {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+.dc-chart g.row text {
+    fill: #4d4d4d;
+}
+
+.dc-chart {
+    padding-left: 0px;
+}
+.hdx-3w-info{
+    background-color: white;
+    font-size: 1.5em;
+}
+
+.pull-right {
+    font-size: 14px;
+}
+.hdx{
+    width: 80px;
+    display: inline;
+   }
+
+.loader {
+    animation: spin 2s linear infinite;
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    height: 70px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 70px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
